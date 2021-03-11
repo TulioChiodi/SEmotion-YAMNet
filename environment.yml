@@ -7,10 +7,12 @@ dependencies:
   - numpy
   - matplotlib
   - librosa
-  - pylint
+  - flake8
   - autopep8
   - notebook
   - jupyterlab
+  - pandas
+  - scikit-learn
   - pip
   - pip:
     - gitpython

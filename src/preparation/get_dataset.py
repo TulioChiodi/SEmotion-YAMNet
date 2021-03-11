@@ -15,4 +15,3 @@ else:
     mydir = os.getcwd()
     print('Make sure you are in the root directory of the repository')
     print(f'Current directory: {mydir}')
-
