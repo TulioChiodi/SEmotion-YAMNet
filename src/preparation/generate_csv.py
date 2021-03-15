@@ -51,4 +51,4 @@ if not os.path.isdir('data/processed/emotion_portuguese_database'):
     os.mkdir('data/processed/emotion_portuguese_database')
     print('Folder created successfully')
 
-df_final.to_csv('data/processed/pt_database.csv')
+df_final.to_csv('data/processed/emotion_portuguese_database/pt_database.csv')

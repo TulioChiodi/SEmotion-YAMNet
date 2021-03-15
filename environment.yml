@@ -4,15 +4,22 @@ channels:
   - conda-forge
 dependencies:
   - python=3.7
+  - pandas
   - numpy
   - matplotlib
   - librosa
   - flake8
+  - pylint
   - autopep8
   - notebook
   - jupyterlab
-  - pandas
+  - seaborn
+  - pyaudio
   - scikit-learn
   - pip
   - pip:
-    - gitpython
+      - gitpython
+      - tensorflow
+      - keract
+      - tensorflow-datasets
+      - tensorflow-io
